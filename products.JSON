@@ -1,0 +1,7 @@
+{
+  "products": [
+    { "id": 12, "name": "Bananas", "price": 0.99 },
+    { "id": 1, "name": "Grapes", "price": 1.49 },
+    { "id": 5, "name": "Apples", "price": 2.6 }
+  ]
+}
