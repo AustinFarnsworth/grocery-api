@@ -143,7 +143,7 @@ app.put("/api/products/:id", async (request, response) => {
     _id: new ObjectId(productId),
   };
   try {
-    await dataAccessLayer.updatOne(productQuery, body);
+    await dataAccessLayer.updateOne(productQuery, body);
   } catch (error) {
     response.status(404).send(`Product with id ${productId} not found!`);
   }
